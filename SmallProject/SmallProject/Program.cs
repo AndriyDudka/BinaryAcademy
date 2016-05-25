@@ -37,6 +37,7 @@ namespace SmallProject
             int b = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine(myMath.Factorial(n));
             Console.WriteLine(myMath.Power(a, b));
+            Console.WriteLine(myMath.Abs(n));
         }
     }
 }
