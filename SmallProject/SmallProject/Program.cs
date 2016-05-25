@@ -19,7 +19,12 @@ namespace SmallProject
             for (int i = 0; i < b; i++)
                 pow *= a;
             return pow;
-        }     
+        }
+
+        public long Abs(int n)
+        {
+            return n < 0 ? -n : n;
+        }
     }
 
     class Program
